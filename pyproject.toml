@@ -1,6 +1,6 @@
 [project]
 name = "pipen-deprecated"
-version = "0.0.0"
+version = "0.1.0"
 description = "Marking pipen processes as deprecated"
 authors = [
     {name = "pwwang",email = "pwwang@pwwang.com"}
@@ -20,7 +20,7 @@ pytest = "^8"
 pytest-cov = "^6"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
