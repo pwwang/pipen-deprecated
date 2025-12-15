@@ -25,7 +25,7 @@ def _deprecate_proc(proc_obj: Proc, proc: Type[Proc]) -> bool:
 
     if depr is True:
         depr = (
-            "[{proc.name}] is DEPRECATED and "
+            "This is process is [bold][yellow]DEPRECATED[/yellow][/bold] and "
             "will be removed in a future release."
         )
 
@@ -41,7 +41,7 @@ class PipenDeprecatedPlugin:
     name = "deprecated"
 
     @plugin.impl
-    async def on_proc_init(self, proc: Proc):
+    async def on_proc_start(self, proc: Proc):
         """Check if a process is deprecated and log a warning."""
         _deprecate_proc(proc, proc.__class__)
 
