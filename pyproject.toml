@@ -10,7 +10,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pipen = "0.17.*"
+pipen = "1.0.0rc1"
 
 [tool.poetry.plugins.pipen]
 deprecated = "pipen_deprecated:pipen_deprecated_plugin"
