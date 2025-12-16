@@ -903,14 +903,14 @@ executing = ">=2.0,<3.0"
 
 [[package]]
 name = "pipen"
-version = "1.0.0rc1"
+version = "1.0.2"
 description = "A pipeline framework for python"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "pipen-1.0.0rc1-py3-none-any.whl", hash = "sha256:46a0b27141f33588a2525f373e8165f3df7aec726b09704f1b18d9c35f63bc56"},
-    {file = "pipen-1.0.0rc1.tar.gz", hash = "sha256:6514c800d607aec5e3d3ffab7a305dfacb2fb4d0effe07f2ce50d529eb0ab142"},
+    {file = "pipen-1.0.2-py3-none-any.whl", hash = "sha256:7386ec8b081c7214acb542ff22007b59fad738d37617f52bc15551ef0985b8db"},
+    {file = "pipen-1.0.2.tar.gz", hash = "sha256:1b61c4c5be9ea1f69e3257609d8b92585c6de975edd94eeb51ca77d4f196f3fc"},
 ]
 
 [package.dependencies]
@@ -921,7 +921,7 @@ pandas = ">=2.0,<3.0"
 pipda = ">=0.13,<0.14"
 python-simpleconf = {version = ">=0.7,<0.8", extras = ["toml"]}
 varname = ">=0.15,<0.16"
-xqute = ">=1.0.0rc1,<2.0.0"
+xqute = ">=1.0.0,<2.0.0"
 
 [[package]]
 name = "pluggy"
@@ -1358,14 +1358,14 @@ files = [
 
 [[package]]
 name = "xqute"
-version = "1.0.0rc3"
+version = "1.0.0"
 description = "A job management system for python"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "xqute-1.0.0rc3-py3-none-any.whl", hash = "sha256:d3510c4be822dd12d69deb04de1f31428a051799bc43d2cb17587eb5429cc85a"},
-    {file = "xqute-1.0.0rc3.tar.gz", hash = "sha256:8a72cf0c0cd78c983f8a3a7315a94b5c1c908040155f2f632921ec80711c6b8d"},
+    {file = "xqute-1.0.0-py3-none-any.whl", hash = "sha256:5e2310dfb2ba9567d24e899da74196958d96a204da5e36ad5724757c4039eb98"},
+    {file = "xqute-1.0.0.tar.gz", hash = "sha256:c12f6b99759593cb87f9dd750704c0510edbf255d5a445c3caefc6a835884b7d"},
 ]
 
 [package.dependencies]
@@ -1398,4 +1398,4 @@ cloudpathlib = ">=0.23,<0.24"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "e6757db3f81a71d0daefd43be090f97053f6a05c5bf6c3098a0eb41cc2fd810d"
+content-hash = "cfa74c5941fa0f9a9add729fce5b88100813133b81c7238487b6444f144d9b65"
