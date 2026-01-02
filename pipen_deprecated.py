@@ -6,7 +6,7 @@ from pipen.pluginmgr import plugin
 from pipen.proc import Proc
 
 logger = get_logger("depr", "info")
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 
 def _deprecate_proc(proc_obj: Proc, proc: Type[Proc]) -> bool:

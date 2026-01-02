@@ -1,6 +1,6 @@
 [project]
 name = "pipen-deprecated"
-version = "1.0.1"
+version = "1.0.2"
 description = "Marking pipen processes as deprecated"
 authors = [
     {name = "pwwang",email = "pwwang@pwwang.com"}
