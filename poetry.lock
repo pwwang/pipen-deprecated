@@ -877,14 +877,14 @@ xml = ["lxml (>=4.9.2)"]
 
 [[package]]
 name = "panpath"
-version = "0.4.7"
+version = "0.4.8"
 description = "Universal sync/async local/cloud path library with pathlib-compatible interface"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "panpath-0.4.7-py3-none-any.whl", hash = "sha256:b3171586ef87cfbfe687ac2ada907db7756bb51b4cf3a9c77e4cb82613ae3ce5"},
-    {file = "panpath-0.4.7.tar.gz", hash = "sha256:f21fbc5f586897d33c460c17615e526373ddf74f793ebb4a5bc9dbfeed51461c"},
+    {file = "panpath-0.4.8-py3-none-any.whl", hash = "sha256:d3dffda701b4503dccb437fe845a9882c4e3d35c38c26accfbd69d4b924a2dab"},
+    {file = "panpath-0.4.8.tar.gz", hash = "sha256:d6db046824a0924e37bea19afa88eca17fe4c3d8909bea05948ae4ac8f193315"},
 ]
 
 [package.dependencies]
@@ -918,14 +918,14 @@ executing = ">=2.0,<3.0"
 
 [[package]]
 name = "pipen"
-version = "1.1.0rc2"
+version = "1.1.0rc3"
 description = "A pipeline framework for python"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "pipen-1.1.0rc2-py3-none-any.whl", hash = "sha256:5ff0ef4107b696c7e68089949618bbc501e4d3ad39c2901936cd81d909fd3c31"},
-    {file = "pipen-1.1.0rc2.tar.gz", hash = "sha256:bed9b5e1ca0f4c517340d5ae5247bf2948487fd791047e5af1e49ca02dcd31d8"},
+    {file = "pipen-1.1.0rc3-py3-none-any.whl", hash = "sha256:dcf2d0bc79f2927979c00df2f6c01d5b97ac88dd1103d990ce5b9186b018e6e2"},
+    {file = "pipen-1.1.0rc3.tar.gz", hash = "sha256:43fbc14417a21f29ecb13c8f04d3e600a80bc29188cddcb4ee632d17a4465b70"},
 ]
 
 [package.dependencies]
@@ -1373,14 +1373,14 @@ files = [
 
 [[package]]
 name = "xqute"
-version = "2.0.1"
+version = "2.0.2"
 description = "A job management system for python"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "xqute-2.0.1-py3-none-any.whl", hash = "sha256:3b855579aa531a40fd5a04182b976a7c71b8cbb8044fbf8923b29034180f1d5b"},
-    {file = "xqute-2.0.1.tar.gz", hash = "sha256:8f8cdcc79068b3f503d1644ad0af2403a139083a9b32972648c1c020041efd64"},
+    {file = "xqute-2.0.2-py3-none-any.whl", hash = "sha256:e6c4f41ab16dd8c2046a17069683c4ac5ed6c7220a133f6ce186d2a0c3b829ba"},
+    {file = "xqute-2.0.2.tar.gz", hash = "sha256:6b23ee9c4d992e19d301e13bc154423db6b669b4fcff1b7067d0157a7a3b5bd0"},
 ]
 
 [package.dependencies]
