@@ -3,25 +3,27 @@ name = "pipen-deprecated"
 version = "1.0.2"
 description = "Marking pipen processes as deprecated"
 authors = [
-    {name = "pwwang",email = "pwwang@pwwang.com"}
+    {name = "pwwang", email = "pwwang@pwwang.com"}
 ]
-license = {text = "MIT"}
+license = "MIT"
 readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pipen>=1.1",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-pipen = {version = "1.1.*", allow-prereleases = true}
-
-[tool.poetry.plugins.pipen]
+[project.entry-points.pipen]
 deprecated = "pipen_deprecated:pipen_deprecated_plugin"
 
-[tool.poetry.group.dev.dependencies]
-pytest = "^8"
-pytest-cov = "^6"
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-cov>=6",
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.pytest.ini_options]
 addopts = "-vv --cov-config=.coveragerc --cov=pipen_deprecated --cov-report xml:.coverage.xml --cov-report term-missing"
