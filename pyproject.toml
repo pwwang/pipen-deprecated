@@ -1,6 +1,6 @@
 [project]
 name = "pipen-deprecated"
-version = "1.0.2"
+dynamic = ["version"]
 description = "Marking pipen processes as deprecated"
 authors = [
     {name = "pwwang", email = "pwwang@pwwang.com"}
@@ -11,6 +11,9 @@ requires-python = ">=3.9"
 dependencies = [
     "pipen>=1.1",
 ]
+
+[tool.hatch.version]
+path = "pipen_deprecated.py"
 
 [project.entry-points.pipen]
 deprecated = "pipen_deprecated:pipen_deprecated_plugin"

@@ -1029,7 +1029,6 @@ wheels = [
 
 [[package]]
 name = "pipen-deprecated"
-version = "1.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "pipen" },
