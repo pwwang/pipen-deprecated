@@ -1,6 +1,14 @@
-# pipen-deprecated
+<div align="center">
+    <img src="./logo.png" width="240px" alt="pipen-deprecated logo" />
 
-Marking [pipen](https://github.com/pwwang/pipen) processes as deprecated.
+   <p style="font-weight:bold;">
+    Marking
+    <a href="https://github.com/pwwang/pipen" target="_blank">pipen</a>
+    processes as deprecated.
+   </p>
+
+</div>
+
 
 # Installation
 
